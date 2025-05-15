@@ -1,62 +1,66 @@
-# Online-Book-Store---SQL-Project
+# Online Book Store — SQL Project
 
-Project Overview
+## Project Overview
 
-This project is a SQL-based analysis of an Online Book Store, designed to demonstrate data management, query writing, and analysis skills using a relational database. I have implemented this project using PostgreSQL, but the SQL scripts can be executed on any other relational database system (MySQL, SQL Server, etc.) with minor adjustments.
+This project is based on an **Online Book Store** and is built using **SQL and PostgreSQL**. The aim is to demonstrate database design, data handling, and SQL query skills using a real-world scenario.
 
+Although the project uses PostgreSQL, all SQL scripts can be easily adapted for other relational databases like **MySQL** or **SQL Server** with minor changes.
 
-Project Files
+---
 
-Books.csv: Contains details of the books available in the store (BookID, Title, Author, Genre, Price).
+## Project Files
 
-Customers.csv: Contains customer information (CustomerID, CustomerName, Email, Phone).
+- **Books.csv** — Contains information about the books  
+  *(BookID, Title, Author, Genre, Price)*
 
-Orders.csv: Contains order records (OrderID, CustomerID, BookID, Quantity, OrderDate).
+- **Customers.csv** — Contains details of the customers  
+  *(CustomerID, CustomerName, Email, Phone)*
 
+- **Orders.csv** — Contains order data  
+  *(OrderID, CustomerID, BookID, Quantity, OrderDate)*
 
+- **Database_and_Table_Creation_Script.sql** —  
+  SQL script to create the database and required tables
 
-Database_and_Table_Creation_Script.sql: 
+- **SQL_Questions_Online_Book_Store.sql** —  
+  A list of SQL questions based on the dataset for practice
 
-PostgreSQL script to create the database and tables for this project.
+- **ALL_SQL_Query_Solution.sql** —  
+  Complete solutions to the above SQL questions
 
-SQL_Questions_Online_Book_Store.sql: A set of SQL questions designed for data analysis.
+---
 
-ALL_SQL_Query_Solution.sql: Complete solutions for all the SQL questions.
+## Key Features
 
+- **Relational Database Design** — Well-structured schema with relationships between `Books`, `Customers`, and `Orders`
+- **SQL Queries** — Includes basic to advanced queries like:
+  - JOINs
+  - Aggregations
+  - Subqueries
+  - Date functions
+- **Practical Use Case** — Mimics a real online bookstore scenario for better understanding
 
+---
 
-Key Features
+## How to Use
 
-Database Creation: Structured with clear relationships among the three tables.
+1. Run the `Database_and_Table_Creation_Script.sql` file to set up the database and tables.
+2. Import the CSV files into their respective tables (`Books`, `Customers`, `Orders`).
+3. Use `SQL_Questions_Online_Book_Store.sql` to try different data analysis queries.
+4. Check `ALL_SQL_Query_Solution.sql` for the solutions.
 
-SQL Queries (PostgreSQL): Covering basic to advanced concepts including joins, aggregate functions, subqueries, and date functions.
+---
 
-Real-World Use Case: Simulates a functional online book store, making the analysis practical.
+## Skills Demonstrated
 
+- Database schema design using PostgreSQL
+- Importing and transforming data
+- Writing complex SQL queries
+- Analytical thinking and problem solving
 
+---
 
-How to Use
+## Contact
 
-Create the database using the "Database_and_Table_Creation_Script.sql" file.
-
-Import the datasets (Books, Customers, Orders) into the respective tables.
-
-Explore the "SQL_Questions_Online_Book_Store.sql" file for analytical questions.
-
-Review the "ALL_SQL_Query_Solution.sql" file for query solutions.
-
-
-
-Skills Demonstrated
-
-PostgreSQL Database Design
-
-Data Cleaning and Transformation
-
-Complex Query Writing
-
-Analytical Problem Solving
-
-
-
-If you have any questions or suggestions regarding this project, please feel free to reach out via GitHub or email.
+If you have any questions, feedback, or suggestions, feel free to contact me via GitHub or email.  
+Contributions are welcome!
